@@ -15,5 +15,3 @@ gem 'rails_layout'
 # gem 'debugger'
 gem 'rails_12factor', group: :production
 gem 'pg'
-
-ruby "2.1.3"
