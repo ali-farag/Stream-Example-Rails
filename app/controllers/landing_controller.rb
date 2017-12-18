@@ -1,5 +1,5 @@
 class LandingController < ApplicationController
-  before_action :sign_in_admin, unless: :user_signed_in?
+ # before_action :sign_in_admin, unless: :user_signed_in?
 
   def index
     @items = Item.all
